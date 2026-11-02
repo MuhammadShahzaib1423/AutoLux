@@ -17,6 +17,8 @@ export const cars = [
     badge: 'Popular',
     art: 'sedan',
     gradient: ['#78350F', '#D97706'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Toyota_Corolla_%28E210%29_sedan_IMG_4190.jpg',
+    imageCredit: 'Alexander Migl / Wikimedia Commons, CC BY-SA 4.0',
     description: 'A dependable family sedan with a refined cabin, smooth drive and Toyota’s trusted reliability.',
     features: [
       'Toyota Safety Sense',
@@ -45,6 +47,8 @@ export const cars = [
     badge: 'New',
     art: 'sedan',
     gradient: ['#1E3A8A', '#3B82F6'],
+    image: 'https://images.pexels.com/photos/16475132/pexels-photo-16475132/free-photo-of-gray-honda-civic-type-r.jpeg?auto=compress&w=1260&h=750&dpr=1',
+    imageCredit: 'Jakub Pabis / Pexels',
     description: 'A sporty turbo sedan with sharp styling, a responsive drive and a tech-filled cabin.',
     features: [
       '1.5L VTEC Turbo engine',
@@ -73,6 +77,8 @@ export const cars = [
     badge: 'Featured',
     art: 'suv',
     gradient: ['#134E4A', '#0D9488'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Kia_Sportage_%28NQ5%29_1X7A0319.jpg',
+    imageCredit: 'Alexander Migl / Wikimedia Commons, CC BY-SA 4.0',
     description: 'A bold all-wheel-drive SUV with a spacious cabin, modern tech and confident road presence.',
     features: [
       'All-wheel drive',
@@ -101,6 +107,8 @@ export const cars = [
     badge: null,
     art: 'suv',
     gradient: ['#7C2D12', '#EA580C'],
+    image: 'https://images.pexels.com/photos/12007134/pexels-photo-12007134.jpeg?auto=compress&w=1260&h=750&dpr=1',
+    imageCredit: 'Hyundai Motor Group / Pexels',
     description: 'A refined SUV with a quiet cabin, generous space and a long list of comfort features.',
     features: [
       'SmartSense safety features',
@@ -129,6 +137,8 @@ export const cars = [
     badge: 'New',
     art: 'hatchback',
     gradient: ['#881337', '#E11D48'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Suzuki_Swift_%282024%29_hybrid_DSC_7924.jpg',
+    imageCredit: 'Alexander Migl / Wikimedia Commons, CC BY-SA 4.0',
     description: 'A nimble city hatchback that is light on fuel, easy to park and fun to drive every day.',
     features: [
       'Push start',
@@ -157,6 +167,8 @@ export const cars = [
     badge: 'Featured',
     art: 'suv',
     gradient: ['#292524', '#57534E'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Toyota_Fortuner_2.8GD-6_4x4_%282022%29_%2852721948921%29.jpg',
+    imageCredit: 'Wikimedia Commons',
     description: 'A commanding seven-seat SUV built for long journeys, rough roads and family comfort.',
     features: [
       '4x4 with crawl control',
@@ -185,6 +197,8 @@ export const cars = [
     badge: null,
     art: 'suv',
     gradient: ['#155E75', '#06B6D4'],
+    image: 'https://images.pexels.com/photos/16816785/pexels-photo-16816785/free-photo-of-honda-hr-v-at-dusk.jpeg?auto=compress&w=1260&h=750&dpr=1',
+    imageCredit: 'Nithula Perera / Pexels',
     description: 'A stylish compact SUV with coupe-like lines, clever Magic Seats and a calm, quiet ride.',
     features: [
       'Honda Sensing safety suite',
@@ -213,6 +227,8 @@ export const cars = [
     badge: 'Featured',
     art: 'sedan',
     gradient: ['#172554', '#1D4ED8'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/BMW_3-Series_%28G20%29_330d_%282020%29_%2852184270321%29.jpg',
+    imageCredit: 'Wikimedia Commons',
     description: 'The benchmark sports sedan — precise handling, a luxurious cabin and effortless power.',
     features: [
       'M Sport package',
@@ -241,6 +257,8 @@ export const cars = [
     badge: 'New',
     art: 'sedan',
     gradient: ['#3F3F46', '#A1A1AA'],
+    image: 'https://images.pexels.com/photos/10029873/pexels-photo-10029873.jpeg?auto=compress&w=1260&h=750&dpr=1',
+    imageCredit: 'I\'m Zion / Pexels',
     description: 'A silent, instant electric sedan with Autopilot, a minimalist cabin and superb range.',
     features: [
       'Autopilot',

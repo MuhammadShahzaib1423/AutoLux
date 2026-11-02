@@ -110,8 +110,13 @@ export default function CarDetail() {
       </div>
 
       <div className="mt-6 grid gap-6 lg:grid-cols-5">
-        <div className="overflow-hidden rounded-3xl shadow-soft lg:col-span-3">
-          <CarArt car={car} className="aspect-[16/9] h-full" />
+        <div className="lg:col-span-3">
+          <div className="overflow-hidden rounded-3xl shadow-soft">
+            <CarArt car={car} className="aspect-[16/9] h-full" />
+          </div>
+          {car.imageCredit && (
+            <p className="mt-2 text-right text-xs text-ink-muted">Photo: {car.imageCredit}</p>
+          )}
         </div>
 
         <div className="rounded-3xl border border-sand bg-white p-6 shadow-soft lg:col-span-2">
